@@ -15,7 +15,7 @@ internal class HtmlLoader {
     /// - Parameters:
     ///     - configuration: ChatConfiguration that specifies the chat
     internal func loadHtml(with configuration: ChatConfiguration) -> String? {
-        
+        #if COCOAPODS
         let frameworkBundle = Bundle(for: HtmlLoader.self)
         guard let bundleURL = frameworkBundle.resourceURL?.appendingPathComponent("ChatSDKBundle.bundle") else {
             return nil
@@ -24,7 +24,10 @@ internal class HtmlLoader {
         let resourceBundle = Bundle(url: bundleURL)
         
         var path = resourceBundle?.path(forResource: "index", ofType: "html")
-        
+        #else
+        var path = Bundle.module.path(forResource: "index", ofType: "html")
+        #endif
+
         if path == nil {
             path = Bundle(for: Self.self).path(forResource: "index", ofType: "html")
         }

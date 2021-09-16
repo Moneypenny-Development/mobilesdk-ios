@@ -8,7 +8,7 @@
 
 import Foundation
 import XCTest
-@testable import SnapEngageSDK
+@testable import SnapEngage
 
 class HtmlLoaderTests: XCTestCase {
     

@@ -1,4 +1,4 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.3
 
 import PackageDescription
 
@@ -16,14 +16,18 @@ let package = Package(
   targets: [
     .target(
       name: "SnapEngage",
-      path: "SnapEngageSDK/SnapEngageSDK"
+      path: "SnapEngageSDK/SnapEngageSDK",
+      exclude: ["Info.plist"],
+      resources: [.copy("Resources/index.html")],
+      publicHeadersPath: "SnapEngageSDK.h"
     ),
     .testTarget(
       name: "SnapEngageTests",
       dependencies: [
         "SnapEngage"
       ],
-      path: "SnapEngageSDK/SnapEngageSDKTests"
+      path: "SnapEngageSDK/SnapEngageSDKTests",
+      exclude: ["Info.plist"]
     ),
   ]
 )

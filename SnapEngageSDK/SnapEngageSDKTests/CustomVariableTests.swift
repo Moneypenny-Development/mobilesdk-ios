@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import SnapEngageSDK
+@testable import SnapEngage
 
 class CustomVariableTests: XCTestCase {
 

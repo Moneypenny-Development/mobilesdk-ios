@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B2FAF79C4686599BAA2F889 /* Pods_SnapEngage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D02435AE94B5DECCB421A35 /* Pods_SnapEngage.framework */; };
-		EFF2FFE85191AA0804FB9E91 /* Pods_SnapEngageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53602006450A343C72FE8BFE /* Pods_SnapEngageTests.framework */; };
 		FF23A9822447179600CF37E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF23A9812447179600CF37E2 /* Assets.xcassets */; };
 		FF4B5B2B2434A350002C0B92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4B5B2A2434A350002C0B92 /* AppDelegate.swift */; };
 		FF4B5B502434A350002C0B92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4B5B4E2434A350002C0B92 /* LaunchScreen.storyboard */; };
@@ -44,14 +42,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		53602006450A343C72FE8BFE /* Pods_SnapEngageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapEngageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6346A6F575ECEE60BAADD777 /* Pods-SnapEngageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapEngageTests.debug.xcconfig"; path = "Target Support Files/Pods-SnapEngageTests/Pods-SnapEngageTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7D02435AE94B5DECCB421A35 /* Pods_SnapEngage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapEngage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		893FAF450052EB0A5D414AB6 /* Pods-SnapEngage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapEngage.debug.xcconfig"; path = "Target Support Files/Pods-SnapEngage/Pods-SnapEngage.debug.xcconfig"; sourceTree = "<group>"; };
-		A9C82F1D3FB2622CD6B9373C /* Pods-SnapEngageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapEngageTests.release.xcconfig"; path = "Target Support Files/Pods-SnapEngageTests/Pods-SnapEngageTests.release.xcconfig"; sourceTree = "<group>"; };
-		B3E1165849E12AA3A391F99D /* Pods-SnapEngage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapEngage.release.xcconfig"; path = "Target Support Files/Pods-SnapEngage/Pods-SnapEngage.release.xcconfig"; sourceTree = "<group>"; };
-		BB9286FA16C8697F18C0439D /* Pods-SnapEngage.stage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapEngage.stage.xcconfig"; path = "Target Support Files/Pods-SnapEngage/Pods-SnapEngage.stage.xcconfig"; sourceTree = "<group>"; };
-		CEC653B71124727398484C94 /* Pods-SnapEngageTests.stage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapEngageTests.stage.xcconfig"; path = "Target Support Files/Pods-SnapEngageTests/Pods-SnapEngageTests.stage.xcconfig"; sourceTree = "<group>"; };
 		FF23A9812447179600CF37E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF4B5B272434A350002C0B92 /* SnapEngage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapEngage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4B5B2A2434A350002C0B92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,7 +62,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B2FAF79C4686599BAA2F889 /* Pods_SnapEngage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,44 +69,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFF2FFE85191AA0804FB9E91 /* Pods_SnapEngageTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E1A1F6820A4D1D8B2DD17E2B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				893FAF450052EB0A5D414AB6 /* Pods-SnapEngage.debug.xcconfig */,
-				B3E1165849E12AA3A391F99D /* Pods-SnapEngage.release.xcconfig */,
-				BB9286FA16C8697F18C0439D /* Pods-SnapEngage.stage.xcconfig */,
-				6346A6F575ECEE60BAADD777 /* Pods-SnapEngageTests.debug.xcconfig */,
-				A9C82F1D3FB2622CD6B9373C /* Pods-SnapEngageTests.release.xcconfig */,
-				CEC653B71124727398484C94 /* Pods-SnapEngageTests.stage.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		FF3F5E3D2436252300A7B9EA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7D02435AE94B5DECCB421A35 /* Pods_SnapEngage.framework */,
-				53602006450A343C72FE8BFE /* Pods_SnapEngageTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		FF4B5B1D2434A350002C0B92 = {
 			isa = PBXGroup;
 			children = (
 				FF4B5B292434A350002C0B92 /* SnapEngage */,
 				FF4B5B592434A350002C0B92 /* SnapEngageTests */,
 				FF4B5B282434A350002C0B92 /* Products */,
-				FF3F5E3D2436252300A7B9EA /* Frameworks */,
-				E1A1F6820A4D1D8B2DD17E2B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,12 +133,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF4B5B602434A350002C0B92 /* Build configuration list for PBXNativeTarget "SnapEngage" */;
 			buildPhases = (
-				4F95EB6F3F04A713352C7038 /* [CP] Check Pods Manifest.lock */,
 				FF4B5B222434A350002C0B92 /* Sources */,
 				FF4B5B232434A350002C0B92 /* Frameworks */,
 				FF4B5B242434A350002C0B92 /* Resources */,
 				FF6F20D8243601F10012A1D0 /* Embed Frameworks */,
-				7D99C1992B82E718EBB65136 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,7 +151,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF4B5B642434A350002C0B92 /* Build configuration list for PBXNativeTarget "SnapEngageTests" */;
 			buildPhases = (
-				AFFF41CC987DD09A494382E7 /* [CP] Check Pods Manifest.lock */,
 				FF4B5B522434A350002C0B92 /* Sources */,
 				FF4B5B532434A350002C0B92 /* Frameworks */,
 				FF4B5B542434A350002C0B92 /* Resources */,
@@ -265,70 +225,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		4F95EB6F3F04A713352C7038 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SnapEngage-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7D99C1992B82E718EBB65136 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SnapEngage/Pods-SnapEngage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SnapEngage/Pods-SnapEngage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SnapEngage/Pods-SnapEngage-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AFFF41CC987DD09A494382E7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SnapEngageTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF4B5B222434A350002C0B92 /* Sources */ = {
@@ -541,7 +437,6 @@
 		};
 		FF4B5B612434A350002C0B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 893FAF450052EB0A5D414AB6 /* Pods-SnapEngage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Debug";
 				CLANG_ENABLE_MODULES = YES;
@@ -566,7 +461,6 @@
 		};
 		FF4B5B622434A350002C0B92 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3E1165849E12AA3A391F99D /* Pods-SnapEngage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -589,7 +483,6 @@
 		};
 		FF4B5B632434A350002C0B92 /* Stage */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB9286FA16C8697F18C0439D /* Pods-SnapEngage.stage.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Stage";
 				CLANG_ENABLE_MODULES = YES;
@@ -613,7 +506,6 @@
 		};
 		FF4B5B652434A350002C0B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6346A6F575ECEE60BAADD777 /* Pods-SnapEngageTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -636,7 +528,6 @@
 		};
 		FF4B5B662434A350002C0B92 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A9C82F1D3FB2622CD6B9373C /* Pods-SnapEngageTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -659,7 +550,6 @@
 		};
 		FF4B5B672434A350002C0B92 /* Stage */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEC653B71124727398484C94 /* Pods-SnapEngageTests.stage.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
