@@ -267,3 +267,19 @@ extension ChatView: OnReadyEventListener {
         self.runPendingActions()
     }
 }
+
+public extension ChatView {
+    func preserveJavascriptEventsUsingKeyWindow() {
+        guard let webView = webView, let keyWindow = UIApplication.shared.keyWindow else { return }
+        webView.removeFromSuperview()
+        webView.frame = .zero
+        keyWindow.addSubview(webView)
+    }
+
+    func resetBounds() {
+        guard let webView = webView else { return }
+        webView.removeFromSuperview()
+        webView.frame = bounds
+        addSubview(webView)
+    }
+}

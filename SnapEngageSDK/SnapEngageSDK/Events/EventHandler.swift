@@ -27,7 +27,9 @@ class BaseEventHandler<Listener>: NSObject where Listener: AnyObject {
     /// - Parameters:
     ///     - listener: A generic listener
     func add(listener: Listener) {
-        self.listeners.append(WeakRef(value: listener))
+        if !listeners.map({ $0.value }).contains(where: { $0 === listener }) {
+            self.listeners.append(WeakRef(value: listener))
+        }
     }
 }
 
